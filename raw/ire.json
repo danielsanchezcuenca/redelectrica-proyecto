@@ -1,0 +1,337 @@
+{
+  "requests": {
+    "start_date": "2018-01-01T00:00",
+    "end_date": "2018-12-31T23:59",
+    "time_trunc": "month",
+    "geo_trunc": "electric_system",
+    "geo_limit": "peninsular",
+    "geo_ids": "8741"
+  },
+  "data": {
+    "data": {
+      "type": "Índice de Red Eléctrica General (IRE)",
+      "id": "dem4",
+      "attributes": {
+        "title": "Índice de Red Eléctrica General (IRE)",
+        "last-update": "2022-03-23T10:46:36.000+01:00",
+        "description": "Información adelantada de la evolución del consumo eléctrico del conjunto de empresas que tienen una potencia contratada superior a 450 kW. Índice 2010=100 y % de crecimiento sobre el mismo periodo del año anterior"
+      },
+      "meta": {
+        "cache-control": {
+          "cache": "HIT",
+          "expireAt": "2025-09-28T11:50:42"
+        }
+      }
+    },
+    "included": [
+      {
+        "type": "Índice general",
+        "id": "1596",
+        "groupId": null,
+        "attributes": {
+          "title": "Índice general",
+          "description": null,
+          "color": "#cdcdcd",
+          "icon": null,
+          "type": "invertedAxis",
+          "magnitude": null,
+          "composite": false,
+          "last-update": "2022-03-23T10:46:36.000+01:00",
+          "values": [
+            {
+              "value": 124.345,
+              "percentage": 0.541591170424057,
+              "datetime": "2018-01-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 117.039,
+              "percentage": 0.516995534116961,
+              "datetime": "2018-02-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 126.897,
+              "percentage": 0.539573943362531,
+              "datetime": "2018-03-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 124.703,
+              "percentage": 0.534465097740043,
+              "datetime": "2018-04-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 132.531,
+              "percentage": 0.547587665838935,
+              "datetime": "2018-05-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 131.289,
+              "percentage": 0.550049018375607,
+              "datetime": "2018-06-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 135.21,
+              "percentage": 0.569092003417667,
+              "datetime": "2018-07-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 129.451,
+              "percentage": 0.576318800446983,
+              "datetime": "2018-08-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 132.071,
+              "percentage": 0.553972827979044,
+              "datetime": "2018-09-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 130.756,
+              "percentage": 0.549826964884174,
+              "datetime": "2018-10-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 123.267,
+              "percentage": 0.532507646316808,
+              "datetime": "2018-11-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 113.8,
+              "percentage": 0.532031772301622,
+              "datetime": "2018-12-01T00:00:00.000+01:00"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Índice general corregido",
+        "id": "1599",
+        "groupId": null,
+        "attributes": {
+          "title": "Índice general corregido",
+          "description": null,
+          "color": "#666666",
+          "icon": null,
+          "type": "invertedAxis",
+          "magnitude": null,
+          "composite": false,
+          "last-update": "2022-03-23T10:46:37.000+01:00",
+          "values": [
+            {
+              "value": 105.247,
+              "percentage": 0.452882045411036,
+              "datetime": "2018-01-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 109.344,
+              "percentage": 0.477866664680878,
+              "datetime": "2018-02-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 108.283,
+              "percentage": 0.456508212672439,
+              "datetime": "2018-03-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 108.62,
+              "percentage": 0.46049193164017,
+              "datetime": "2018-04-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 109.496,
+              "percentage": 0.450350486280182,
+              "datetime": "2018-05-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 107.397,
+              "percentage": 0.442794378215704,
+              "datetime": "2018-06-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 102.379,
+              "percentage": 0.428684519677161,
+              "datetime": "2018-07-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 95.166,
+              "percentage": 0.42166134441099,
+              "datetime": "2018-08-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 106.336,
+              "percentage": 0.445438225417917,
+              "datetime": "2018-09-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 107.057,
+              "percentage": 0.44716883004461,
+              "datetime": "2018-10-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 108.217,
+              "percentage": 0.461790313044684,
+              "datetime": "2018-11-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 100.097,
+              "percentage": 0.464615593135906,
+              "datetime": "2018-12-01T00:00:00.000+01:00"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Variación mensual",
+        "id": "1596-lpd",
+        "groupId": null,
+        "attributes": {
+          "title": "Variación mensual",
+          "description": null,
+          "color": "#ff6600",
+          "icon": null,
+          "type": "last-period",
+          "magnitude": null,
+          "composite": true,
+          "last-update": "2022-03-23T10:46:36.000+01:00",
+          "values": [
+            {
+              "value": 2.80184529911703,
+              "percentage": 1,
+              "datetime": "2018-01-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 2.43396523656987,
+              "percentage": 1,
+              "datetime": "2018-02-01T00:00:00.000+01:00"
+            },
+            {
+              "value": -2.01836137470948,
+              "percentage": 1,
+              "datetime": "2018-03-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 2.55518273627422,
+              "percentage": 1,
+              "datetime": "2018-04-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -1.10807664756446,
+              "percentage": 1,
+              "datetime": "2018-05-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -3.85772973922977,
+              "percentage": 1,
+              "datetime": "2018-06-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -1.23231334506964,
+              "percentage": 1,
+              "datetime": "2018-07-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -1.07596726247336,
+              "percentage": 1,
+              "datetime": "2018-08-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 0.315215409855982,
+              "percentage": 1,
+              "datetime": "2018-09-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -1.59769414279156,
+              "percentage": 1,
+              "datetime": "2018-10-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -2.85829117215945,
+              "percentage": 1,
+              "datetime": "2018-11-01T00:00:00.000+01:00"
+            },
+            {
+              "value": -1.54346622369879,
+              "percentage": 1,
+              "datetime": "2018-12-01T00:00:00.000+01:00"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Variación mensual corregida",
+        "id": "1599-lpd",
+        "groupId": null,
+        "attributes": {
+          "title": "Variación mensual corregida",
+          "description": null,
+          "color": "#2fa688",
+          "icon": null,
+          "type": "last-period",
+          "magnitude": null,
+          "composite": true,
+          "last-update": "2022-03-23T10:46:37.000+01:00",
+          "values": [
+            {
+              "value": 1.90847825244975,
+              "percentage": 1,
+              "datetime": "2018-01-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 2.29486112020656,
+              "percentage": 1,
+              "datetime": "2018-02-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 0.14149634698974,
+              "percentage": 1,
+              "datetime": "2018-03-01T00:00:00.000+01:00"
+            },
+            {
+              "value": 1.87486517665376,
+              "percentage": 1,
+              "datetime": "2018-04-01T00:00:00.000+02:00"
+            },
+            {
+              "value": 2.00667026886028,
+              "percentage": 1,
+              "datetime": "2018-05-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -0.113468317227653,
+              "percentage": 1,
+              "datetime": "2018-06-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -1.42311062326082,
+              "percentage": 1,
+              "datetime": "2018-07-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -2.42587048353361,
+              "percentage": 1,
+              "datetime": "2018-08-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -1.41842656629522,
+              "percentage": 1,
+              "datetime": "2018-09-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -0.132463922238077,
+              "percentage": 1,
+              "datetime": "2018-10-01T00:00:00.000+02:00"
+            },
+            {
+              "value": -2.58882197798242,
+              "percentage": 1,
+              "datetime": "2018-11-01T00:00:00.000+01:00"
+            },
+            {
+              "value": -1.39392387106944,
+              "percentage": 1,
+              "datetime": "2018-12-01T00:00:00.000+01:00"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
